@@ -1,5 +1,5 @@
 # Простой TelegramBot (чат-бот)
-
+# Сперва необходимо установить pyTelegramBotAPI
 # pip install pyTelegramBotAPI
 import telebot
 
