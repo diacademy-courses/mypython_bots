@@ -5,16 +5,16 @@ import telebot
 
 from telebot import types
 
-# Cоздание экземпляра класса TeleBot
+# Cоздание экземпляра класса TeleBota
 # Замените TOKEN своим собственным токеном API
-bot = telebot.TeleBot("1738428749:AAHZjSJCENFDHfeg8OnqdaOtm2HmM1UnR8w")
+bot = telebot.TeleBot("1753805349:AAFgCZM9MvqwEESrKpfTcC9luYuSbbWJwss")
 
 # Ниже обработчики сообщений
 name = ''
 surname = ''
 age = 0
 # Обработчик сообщений, который обрабатывает входящие /start и /help команды
-@bot.message_handler(commands=['start', 'help'])
+@bot.message_handler(commands=['start', 'help', 'hi'])
 def send_welcome(message):
 	bot.reply_to(message, "Привет, гость!")
 # Обработчик сообщений, который отвечает на текстовые сообщения 'привет', 'здравствуйте', 'здравствуй'
